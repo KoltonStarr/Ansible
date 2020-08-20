@@ -3,5 +3,5 @@
   tasks:
     - name: copy file
       copy:
-        src: /dummy-files/dummy-text.txt
-        dest: /dummy-files/dummy-text.txt
+        src: ~/dummy-files/dummy-text.txt
+        dest: ~/dummy-files/dummy-text.txt
