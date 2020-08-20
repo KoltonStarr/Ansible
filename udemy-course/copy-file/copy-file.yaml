@@ -4,4 +4,4 @@
     - name: copy file
       copy:
         src: ~/dummy-files/dummy-text.txt
-        dest: ~/tmp/dummy-text.txt
+        dest: /tmp/dummy-text.txt
