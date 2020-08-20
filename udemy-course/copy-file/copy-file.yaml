@@ -1,0 +1,7 @@
+- name: copy file on controller to target servers
+  hosts: all
+  tasks:
+    - name: copy file
+      copy:
+        src: /dummy-files/dummy-text.txt
+        dest: /dummy-files/dummy-text.txt
